@@ -1,13 +1,19 @@
-h1 { text-align: center;
+h1 { 
+    text-align: center;
+    
 }
 
-table tbody{
+table {
     
-    width: 400;
-     padding: 10;
-      border: 2;
+    width: 500px;
+     
 }
 
 th{
     width: 150;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
 }
