@@ -16,6 +16,8 @@
 
 <label><p>Our 12" wood-fired pizzas are available for delivery. Build your custom pizza and we'll deliver it within an hour.</p></label>
 
+<form action="http://www.blackgoosebistro.com/pizza.php" method="post">
+
 
 <fieldset><legend>Your Information</legend>
 <ul>
@@ -31,15 +33,15 @@
 
 <label><h2>Design Your Dream Pizza:</h2></label>
 
-<label><p>Pizza specs<p></label>
+<fieldset><legend><label><p>Pizza specs<p></label></legend></fieldset>
 
-<fieldset><legend><label><p>Crust <em>(Choose one)</em>:</p></label></legend>
+<fieldset><legend><p>Crust <em>(Choose one)</em>:</p></legend>
 <ul>
-  <label><li><input type="radio" name="crust" value="classicwhite" checked="checked"/>Classic White
+  <li><label><input type="radio" name="crust" value="classicwhite" checked="checked"/>Classic White</abel>
   <li><input type="radio" name="crust" value="multigrain"/>Multigrain </li>
   <li><input type="radio" name="crust" value="stuffedcrust"/>Cheese-stuffed Crust</li>
   <li><input type="radio" name="crust" value="nogluten"/>Gluten-free</li></label>
-</ul></fieldset>
+</ul></fieldset></fieldset>
 
 <fieldset><legend><label><p>Toppings <em>(Choose as many as you want)</em>:</p></label></legend>
 <ul>
@@ -51,9 +53,10 @@
   <li><input type="checkbox" name="topping" value="peppers"/>Peppers</li>
   <li><input type="checkbox" name="topping" value="anchovies"/>Anchovies</li></label></fieldset>
   
+  
    </ul>
 
-<p>Number</p>
+<fieldset><legend><p>Number</p></legend>
 <label><p>How many pizzas: <input type="text" list="number" name="Number" textarea=rows="1" cols="1"></label>
 <datalist id="number">
    <option value="1">
@@ -66,6 +69,8 @@
 
 <label><input type="submit"></label>
 <label><input type="reset" value="Reset"></label>
+
+</fieldset>
 
 </body>
 </html>
