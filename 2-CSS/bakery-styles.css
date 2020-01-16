@@ -8,10 +8,14 @@ html {
  box-sizing: inherit;
 }
 body {
+  margin: 0 20%;
+ border: 3px solid red;
+ background-color: #e2f3f5;
   font-family: Georgia, serif;
   font-size: 100%;
-  background-color: white;
 }
+
+
 
 /* link styles */
 a:link, a:visited { color: #DC6903; }
@@ -55,12 +59,23 @@ main {
   line-height: 1.8em;
   color: #555;
   padding: 1em; 
+  border: double 4px #EADDC4; 
 }
 h3 {
   text-transform: uppercase;
   letter-spacing: .2em;
   color: #7A0002;
+  border-top: 1px solid;
+ border-left: 3px solid;
+ padding-left: 1em;
 }
+
+a {
+ text-decoration: none;
+ border-bottom: 1px dotted;
+ padding-bottom: .2em;
+}
+
 p.more {
   font-family: verdana, sans-serif;
   text-transform: uppercase;
@@ -73,6 +88,7 @@ aside {
   background-color: #F6F3ED;
   padding: 1em;
  padding-left: 45px; 
+  border-top-right-radius: 25px;
 }
 /* misc styles */
 footer {
@@ -99,3 +115,36 @@ div#silly {
  width: 300px;
  height: 100px;
 }
+
+div#help {
+ border-top-width: thin;
+ border-right-width: medium;
+ border-bottom-width: thick;
+ border-left-width: 12px;
+ border-style: solid;
+ width: 300px;
+ height: 100px;
+}
+
+div#special {
+ border-color: maroon aqua;
+ border-style: solid;
+ border-width: 6px;
+ width: 300px;
+ height: 100px;
+}
+
+p#A {
+ margin: 4em;
+ border: 2px solid red;
+ background: #e2f3f5;
+ }
+ 
+  p#B {
+ margin-top: 2em;
+ margin-right: 250px;
+ margin-bottom: 1em;
+ margin-left: 4em;
+ border: 2px solid red;
+ background: #e2f3f5;
+ }
